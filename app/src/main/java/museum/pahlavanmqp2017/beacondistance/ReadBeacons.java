@@ -3,7 +3,7 @@ package museum.pahlavanmqp2017.beacondistance;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ReadBeacons extends AppCompatActivity {
+public class ReadBeacons extends AppCompatActivity implements IBeaconConsumer{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
