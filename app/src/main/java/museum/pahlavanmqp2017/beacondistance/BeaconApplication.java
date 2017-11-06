@@ -24,6 +24,14 @@ public class BeaconApplication extends Application{
     @Override
     public void onCreate(){
         super.onCreate();
+
+        
+
+
+
+
+
+
         beaconManager = new BeaconManager(getApplicationContext());
 
         beaconManager.setMonitoringListener(new BeaconManager.BeaconMonitoringListener(){
@@ -48,7 +56,6 @@ public class BeaconApplication extends Application{
                         "monitored region",
                         UUID.fromString("6EE4D6A9-DD8E-550E-FF81-783E445F9C5B"),
                         34226, 26639));
-
             }
         });
     }
